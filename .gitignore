@@ -1,0 +1,44 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# RAG generated data
+data/chroma_db/
+data/chunks/
+data/processed/
+
+# Raw PDFs (keep local, don't commit large or copyrighted files)
+data/raw/
+
+# Model and embedding files
+models/
+*.gguf
+*.safetensors
+*.onnx
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
